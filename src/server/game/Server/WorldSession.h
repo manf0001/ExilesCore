@@ -1656,7 +1656,7 @@ class TC_GAME_API WorldSession
         void HandleSplitGuildBankItemToInventory(WorldPackets::Guild::SplitGuildBankItemToInventory& splitGuildBankItemToInventory);
         void HandleAutoStoreGuildBankItem(WorldPackets::Guild::AutoStoreGuildBankItem& autoStoreGuildBankItem);
         void HandleMergeGuildBankItemWithGuildBankItem(WorldPackets::Guild::MergeGuildBankItemWithGuildBankItem& mergeGuildBankItemWithGuildBankItem);
-        void HandleSplitGuildBankItem(WorldPackets::Guild::SplitGuildBankItem& splitGuildBankItem)
+        void HandleSplitGuildBankItem(WorldPackets::Guild::SplitGuildBankItem& splitGuildBankItem);
 
         void HandleGuildBankUpdateTab(WorldPackets::Guild::GuildBankUpdateTab& packet);
         void HandleGuildBankBuyTab(WorldPackets::Guild::GuildBankBuyTab& packet);
