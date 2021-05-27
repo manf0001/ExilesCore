@@ -1,0 +1,1 @@
+UPDATE `ec_world`.`creature_template` SET `minlevel` = 1 WHERE `entry` = 49871
